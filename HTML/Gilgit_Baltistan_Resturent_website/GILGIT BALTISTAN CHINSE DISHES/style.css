@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(216, 221, 221);
+    margin:20px;
+    font-family:'Times New Roman', Times, serif;
+}
+img{
+    height: 450px;
+    width: 80%;
+    border-radius: 5px;
+}
+.btnback{
+    border: 2px solid red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+.btnback a:hover{
+color: red;
+}
+.btnback a{
+    font-size: 14px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}

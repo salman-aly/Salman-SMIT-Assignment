@@ -1,0 +1,30 @@
+.form{
+    margin: 30px;
+}
+.btn{
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    color:white;
+    background-color: #3B4474;
+    font-size: small;
+}
+.one{
+   width: 250px;
+    height: 30px;
+     margin-left: 25px;
+}
+.two{
+    width: 250px;
+     height: 35px;
+}
+.three{
+    width: 250px;
+     height: 30px;
+}
+.classbd{
+    border-radius:20px ;
+}

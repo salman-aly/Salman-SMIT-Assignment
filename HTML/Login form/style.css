@@ -1,0 +1,39 @@
+body {
+    background-image: url(./images/milky-way-2695569_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+form {
+    margin-top: 250px;
+    color: white;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 50px 30px 50px 30px;
+}
+
+
+form input{
+    width: 250px;
+    height: 25px;
+    padding-left: 15px;
+    margin: 15px;
+    /* background: transparent;
+    border-bottom: 3px solid white; */
+    
+}
+.input label {
+    display: block;
+    font-size: 22px;
+}
+.btn{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+}
+.btn:hover{
+    color: blue;
+}

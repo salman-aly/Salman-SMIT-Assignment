@@ -1,0 +1,67 @@
+body {
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.container {
+    background-color: aliceblue;
+    border: 10px;
+    border-radius: 10px;
+    margin: 0px auto;
+    margin-top: 100px;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    box-shadow: 20px 15px 2px white;
+}
+
+.container h1 {
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.container p {
+    line-height: 35px;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btnp{
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    float: right;
+}
+.btnp a{
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: blue;
+}

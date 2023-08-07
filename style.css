@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.container-one {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.632)50%, rgba(0, 0, 0, 0.705)50%), url(images/rear-view-programmer-working-all-night-long.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 670px;
+    background-position: center;
+    padding-bottom: 50px
+}
+
+.container-one {
+    width: 1320px;
+    margin: auto;
+    position: relative;
+}
+
+.nav {
+    height: 60px;
+    width: 100%;
+    position: relative;
+    position: relative;
+}
+
+.logo img {
+    width: 250px;
+    padding-top: 30px;
+}
+
+.section-one h2 {
+    color: #E3E3E3;
+    text-align: center;
+    padding-top: 130px;
+    font-weight: 800 !important;
+    line-height: 150%;
+    font-size: 3rem;
+}
+
+.section-one span {
+    color: #F5C750;
+    font-weight: 900 !important;
+    font-size: 3rem;
+}
+
+.section-one p {
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 15px;
+    line-height: 1.4;
+}
+
+.section-one button {
+    width: 135px;
+    height: 35px;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid #F5C750;
+    border-radius: 5px;
+    margin-left: 43%;
+    margin-top: 30px;
+}
+
+.section-one button a {
+    text-decoration: none;
+    color: #F5C750;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.section-two {
+    /* height: 600px; */
+    width: 1320px;
+    background-color: #0A174E;
+    margin: auto;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 150px;
+}
+
+.sec-assignment {
+    width: 1260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 5vh;
+    /* justify-content: space-evenly; */
+}
+
+.section-two h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #F5C750;
+}
+
+.sec-box {
+    width: 30%;
+    height: 150px;
+    margin-bottom: 150px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.sec-box img {
+    width: 100%;
+    /* height: 35vh; */
+}
+
+.box-text {
+    height: 60px;
+    width: 100%;
+    margin-top: -4px;
+    background-color: #E3E3E3;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.box-text h3{
+    font-size: 1.7em;
+    line-height: 2;
+}
+
+.sec-box a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 425px) {
+
+    .container-one {
+        width: 100%;
+        }
+
+    .sec-box {
+        width: 90% !important;
+        height: auto;
+
+    }
+
+    .sec-assignment {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+
+
+    .logo img {
+        width: 100%;
+        height: 10vh;
+        padding-left: 0px;
+    }
+
+    .section-one h2 {
+        color: #ffffff;
+        text-align: center;
+        padding-top: 0px;
+        font-weight: 600 !important;
+        font-size: 1.8rem;
+        padding-top: 80px;
+    }
+
+    .section-one span {
+        color: #F5C750;
+        font-weight: 600 !important;
+        font-size: 2rem;
+    }
+
+    .section-one p {
+        color: #fff;
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.6;
+        padding: 15px 10px;
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+
+    .section-one button {
+        width: 35vw;
+        height: 35px;
+        justify-content: center;
+        background-color: transparent;
+        border: 2px solid #F5C750;
+        border-radius: 5px;
+        margin-left: 30%;
+        margin-top: 15px;
+    }
+
+    .section-one button a {
+        text-decoration: none;
+        color: #F5C750;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .section-two {
+        /* height: auto; */
+        width: 100%;
+        background-color: #1491CD;
+        position: relative;
+        padding-top: 10vh;
+    }
+
+    .section-two h2 {
+        font-size: 2em;
+    }
+
+    .sec-box img {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    .box-text {
+        height: 50px;
+        width: 100%;
+        margin-top: -4px;
+        background-color: #E3E3E3;
+        text-align: center;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .sec-box a {
+        text-decoration: none;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .container-one {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo img {
+        width: 350px;
+        /* height: 30px; */
+    }
+
+
+    .section-two {
+        height: auto;
+        width: 100%;
+        background-color: #1491CD;
+        position: relative;
+        padding-top: 10vh;
+    }
+
+    .sec-assignment {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .sec-box {
+        width: 40%;
+        height: 25vh;
+        margin-bottom: 20vh;
+        box-sizing: border-box;
+    }
+
+    .sec-box a {
+        text-decoration: none;
+    }
+
+    .sec-box a h3 {
+        font-size: 18px;
+    }
+}

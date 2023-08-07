@@ -1,0 +1,932 @@
+@font-face {
+    font-family: "futurak";
+    src: url("https://staging.tossdown.site/assets/theme_one/fonts/futurak/futurak.ttf") format("truetype"),
+        url("https://staging.tossdown.site/assets/theme_one/fonts/futurak/futurak.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-variant-ligatures: no-common-ligatures;
+}
+
+@font-face {
+    font-family: "apercu";
+    src: url("https://staging.tossdown.site/assets/theme_one/fonts/aperculight/aperculight.otf") format("opentype"),
+        url("https://staging.tossdown.site/assets/theme_one/fonts/aperculight/aperculight.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+    font-variant-ligatures: no-common-ligatures;
+}
+
+@font-face {
+    font-family: "apercu";
+    src: url("https://staging.tossdown.site/assets/theme_one/fonts/apercu/apercumedium.otf") format("opentype"),
+        url("https://staging.tossdown.site/assets/theme_one/fonts/apercu/apercumedium.otf") format("otf");
+    font-weight: 400;
+    font-style: normal;
+    font-variant-ligatures: no-common-ligatures;
+}
+
+@font-face {
+    font-family: "apercu";
+    src: url("https://staging.tossdown.site/assets/theme_one/fonts/aperculight/aperculight.otf") format("opentype"),
+        url("https://staging.tossdown.site/assets/theme_one/fonts/aperculight/aperculight.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+    font-variant-ligatures: no-common-ligatures;
+}
+
+@font-face {
+    font-family: "butler";
+    src: url("https://staging.tossdown.site/assets/theme_one/fonts/butlerbold/butlerbold.otf") format("opentype"),
+        url("https://staging.tossdown.site/assets/theme_one/fonts/butlerbold/butlerbold.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+    font-variant-ligatures: no-common-ligatures;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Agdasima', sans-serif; */
+}
+
+.menu {
+    display: flex;
+    float: left;
+    margin-left: 90px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo>img {
+    height: 70px;
+    width: 180px;
+    margin-left: 40px;
+}
+
+ul {
+    margin-left: 250px;
+    margin-top: -90px;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+li a {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: red;
+    transition: 0.4s ease-in-out;
+}
+
+.btn1 {
+    /* display: inline-block; */
+    float: right;
+    margin-right: 200px;
+    margin-top: -50px;
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.btn1 a:hover {
+    color: red;
+    transition: 0.4s ease-in-out;
+}
+
+.btn a {
+    color: white;
+}
+
+.btn2 {
+    /* display: inline-block; */
+    float: right;
+    margin-right: 40px;
+    margin-top: -50px;
+    padding-left: 50px;
+    background-color: red;
+    border: none;
+}
+
+.btn2 a {
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.btn {
+    font-size: 16px;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn2 a:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.4s ease-in-out;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    padding-right: 45px;
+}
+
+.banner {
+    margin-top: -30px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4)50%, rgba(0, 0, 0, 0.4)50%), url(./images/rustic-chandelier-made-bulbs-ropes-dining-table-vintage-kitchen.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    opacity: 90%;
+}
+
+.banner .hd {
+    text-align: center;
+    padding-top: 200px;
+    padding-right: 420px;
+    color: white;
+    font-size: 45px;
+}
+
+.banner p {
+    font-size: 20px;
+    color: white;
+    padding-left: 120px;
+    line-height: 25px;
+}
+
+.column img {
+    background-color: white;
+    border-radius: 5px;
+    width: 340px;
+    height: 150px;
+}
+
+.btnb {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 140px;
+    background: transparent;
+}
+
+.btnb {
+    font-size: 16px;
+    color: black;
+    margin-left: 120px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.btnb a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btnb a:hover {
+    color: red;
+    font-size: 16px;
+    transition: 0.5s ease-in-out;
+}
+
+.wel {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    background-color: black;
+}
+
+.wel h1,
+p {
+    color: white;
+}
+
+.wel span {
+    font-family: "futurak";
+    font-size: 53px;
+}
+
+.row {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 100px;
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+.row img {
+    width: 225px;
+    height: 90px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.btnc {
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    margin: 25px;
+}
+
+.btnc a {
+    text-decoration: none;
+    color: white;
+}
+
+.btnc a:hover {
+    color: red;
+}
+
+.wel2 {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 300px;
+    background-color: #0F0F0F;
+}
+
+.wel2 h1 {
+    color: white;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.wel2 p {
+    color: white;
+    letter-spacing: 2px;
+}
+
+.wel2 span {
+    font-family: "futurak";
+    font-size: 53px;
+}
+
+.isl {
+    float: left;
+}
+
+.isl .p1 {
+    font-family: serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    display: block;
+    margin-left: -15px;
+}
+
+.isl .p1a {
+    font-family: serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    margin-left: -185px;
+    display: block;
+}
+
+.isl .p2 {
+    color: white;
+    font-size: 45px;
+    font-family: "futurak";
+    padding-left: 175px;
+
+}
+
+.isl h3 {
+    color: white;
+}
+
+.islb img {
+    height: 25px;
+    width: 35px;
+    float: left;
+    margin-top: -5px;
+}
+
+.islb p {
+    display: inline-block;
+    margin-right: 604px;
+    margin-top: 10px;
+}
+
+.islb a {
+    color: white;
+    text-decoration: none;
+    margin-right: 260px;
+    display: inline-block;
+}
+
+.islb .pic {
+    width: 50px;
+    height: 30px;
+    margin-top: -10px;
+    display: inline-block;
+}
+
+.newimg img {
+    height: 300px;
+    width: 530px;
+    float: right;
+    margin-top: -230px;
+    margin-right: 50px;
+}
+
+.islb .btncb {
+    width: 154px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-size: 14px;
+    margin-top: 40px;
+    display: inline-block;
+    background: transparent;
+    margin-right: 775px;
+}
+
+.islb .btncb a {
+    color: white;
+    padding-left: 15px;
+    padding-top: -5px;
+}
+
+.islb .btncb a:hover {
+    color: #ED1C24;
+    transition: 0, 4s ease-in-out;
+}
+
+.divi img {
+    position: absolute;
+    margin-left: -825px;
+    margin-top: 55px;
+}
+
+.wel3 {
+    background-color: #0F0F0F;
+    padding-bottom: 50px;
+}
+
+.newim img {
+    height: 300px;
+    width: 530px;
+    margin-top: -175px;
+    margin-left: 60px;
+}
+
+.fai h3 span {
+    font-family: serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+.fai .px,
+h2 {
+    color: white;
+    margin-right: 25px;
+}
+
+.fai .px {
+    font-size: 45px;
+    font-family: "futurak";
+}
+
+.fai {
+    float: right;
+    margin-right: 155px;
+    margin-top: -344px;
+}
+
+.faiar {
+    float: right;
+    margin-right: 375px;
+    margin-top: -240px;
+}
+
+.faiar a {
+    color: white;
+    text-decoration: none;
+}
+
+.faiar img {
+    height: 25px;
+    width: 35px;
+    float: left;
+    margin-top: -5px;
+}
+
+.faiar p {
+    padding-top: 15px;
+}
+
+.faiar .faibtn {
+    font-size: 16px;
+    background: transparent;
+    border: 1px solid white;
+    padding-left: 25px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    margin-top: 22px;
+}
+
+.div img {
+    position: absolute;
+    margin-left: -42px;
+    margin-top: 29px;
+}
+
+.baha {
+    background-color: #262626;
+    margin-top: -17px;
+}
+
+.bahabxx {
+    font-size: 16px;
+    background: transparent;
+    border: 1px solid white;
+    padding-left: 25px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    margin-top: 22px;
+    margin-right: 765px;
+}
+
+.bahabxx a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.wel2 .divibd img {
+    height: 25px;
+    width: 35px;
+    position: absolute;
+    margin-left: -808px;
+    margin-top: 29px;
+}
+
+
+.wel4 {
+    background-color: #0F0F0F;
+    padding-bottom: 180px;
+}
+
+.isl p {
+    margin-left: 190px;
+}
+
+.islb p {
+    margin-left: 160px;
+}
+
+.bahabtn {
+    font-size: 16px;
+    background: transparent;
+    border: 1px solid white;
+    padding-left: 25px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    margin-top: 22px;
+    margin-left: 170px;
+    display: inline-block;
+}
+
+.bahabtn a {
+    color: white;
+    text-decoration: none;
+}
+
+.divib img {
+    height: 25px;
+    width: 35px;
+    margin-left: -40px;
+    margin-top: 28px;
+    position: absolute;
+}
+
+.bahabtn img {
+    margin-top: -5px;
+}
+
+.express {
+    background-color: #000000;
+    margin-top: -45px;
+    padding-bottom: 100px;
+}
+
+.express .location {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h4 {
+    color: white;
+}
+
+.express img {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.bhera {
+    display: inline-block;
+    padding-left: 55px;
+}
+
+.fa-soli {
+    color: #ffffff;
+    font-size: 20px;
+    /* margin-top: 31px; */
+    margin-left: 128px;
+    transform: rotate(-37deg);
+}
+
+.bhera i img {
+    width: 30px;
+    height: 25px;
+}
+
+.bhera i {
+    color: white;
+    font-size: 14px;
+    margin-top: -8px;
+    display: block;
+    margin-top: 5px;
+}
+
+.bhera button {
+    font-size: 16px;
+    background: transparent;
+    border: 1px solid white;
+    padding-left: 25px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    margin-top: 22px;
+    display: inline-block;
+}
+
+.bhera button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bhera .txt {
+    margin-left: 60px;
+}
+
+.bhera2 {
+    padding-left: 180px;
+    padding-top: 50px;
+}
+
+.village {
+
+    background-color: #0F0F0F;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    display: flex;
+}
+
+.village .villtxt .guj {
+    font-family: serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    display: block;
+    margin-left: -1px;
+}
+
+.village img {
+    width: 620px;
+    height: 355px;
+    padding-left: 10px;
+}
+
+.village .villtxt h3 {
+    font-size: 35px;
+    line-height: 0.2;
+}
+
+.village .villtxt h3,
+span {
+    color: white;
+    letter-spacing: normal;
+}
+
+.village .villtxt2 span{
+    font-family: serif;
+}
+
+
+.village .villtxt small {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: serif;
+}
+
+.village .villtxt img {
+    width: 35px;
+    height: 30px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -5px;
+}
+
+.village .villtxt {
+    padding-left: 65px;
+    padding-top: 80px;
+}
+
+.village .villtxt p {
+    color: #ED1C24;
+    letter-spacing: 4px;
+    margin-left: 32px;
+}
+
+.village a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: normal;
+}
+
+.villtxt .txtbtn {
+    padding: 15px 50px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #28A745;
+}
+
+.villtxt .txtbtn a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 2px;
+    margin-left: -28px;
+}
+
+.villtxt .txtbtn a:hover {
+    color: #ED1C24;
+}
+
+.fa-solid,
+.fas {
+    font-weight: 900;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 38px;
+    font-size: 28px;
+}
+
+.soon {
+    background: rgb(0,0,0);
+    background: linear-gradient(304deg, rgba(0,0,0,1) 47%, rgba(41,7,6,1) 100%);
+    margin-top: -50px;
+    height: auto;
+    padding-bottom: 80px;
+}
+
+.soon h2 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 45px;
+    word-spacing: 5px;
+}
+
+.soon span {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.soon small {
+    font-size: 25px;
+}
+
+.sooniner {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.cont1 {
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 240px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.cont1 .bold {
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+.cont1 img {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.cont1 small {
+    font-size: 14px;
+    color: red;
+    letter-spacing: 5px;
+
+}
+
+.cont1 p,
+h4 {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.social {
+    display: inline-block;
+}
+
+.social h1 {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.so-img {
+    margin-left: 5px;
+}
+
+.social img {
+    height: 200px;
+    width: 220px;
+    padding-left: 20px;
+}
+
+/* footer start */
+.footer {
+    background-color: #0F0F0F;
+    width: auto;
+    height: 400px;
+    display: flex;
+    padding-top: 50px;
+}
+
+.istft {
+    height: 400px;
+    width: 350px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.footer img {
+    width: 200px;
+    height: 80px;
+}
+
+.footer p {
+    font-size: 18px;
+    color: #beb6b6;
+    line-height: 1.2;
+
+}
+
+.secft h4,
+li {
+    color: #beb6b6;
+}
+
+.secft h4 {
+    margin-left: 84px;
+    margin-top: 40px;
+}
+
+.secft ul {
+    margin-top: 50px;
+    margin-right: 32px;
+    margin-left: 49px;
+}
+
+.footer .footerlist li {
+    display: block;
+    margin-top: 20px;
+}
+
+.secft ul img {
+    width: 45px;
+    height: 45px;
+}
+
+.secft ul a {
+    text-decoration: none;
+    margin-left: -8px;
+}
+
+.secft .clipcart img {
+    margin-top: 10px;
+    height: 70px;
+    width: 150px;
+    margin-left: 72px;
+}
+
+.ftprivacy {
+    background-color: rgb(199, 18, 18);
+    height: 50px;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.ftprivacy h3 {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+/* icons */
+.footer .fa-brands,
+.fab {
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: -26px;
+    padding-left: 2px;
+}
+
+/* backtotop button */
+.totop{
+    position: fixed;
+    bottom: 60px;
+    left: 3%;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    display: block;
+    background-color: rgba(52, 58, 64, 0.5);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
