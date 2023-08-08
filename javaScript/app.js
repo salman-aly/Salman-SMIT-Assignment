@@ -61,7 +61,7 @@
 
 // Question No 07
 
-// var book = "i am trying to learn ftom the book a :";
+// var book = "i am trying to learn ftom the book a:";
 // var msg = "A smarter way to learn JavaScript.";
 // alert(book + msg);
 
@@ -117,9 +117,9 @@
 
 // Question No 1
 
-// var firstName = "Salman"
-// var LasttName = "Ali"
-// var surnameName = "Sallu"
+// var firstName = " Salman "
+// var LasttName = " Ali "
+// var surnameName = " Sallu "
 // alert(firstName + LasttName + surnameName)
 
 
@@ -261,6 +261,25 @@
 
 // Question no 7
 
-// var item = 1;
-// var quantitiy 
+var item1 = 650;
+var quantitiItem1 = 3;
+
+var item2 = 100;
+var quantitiItem2 = 7;
+
+var shippingCharges = 100;
+
+console.log("Shopping Cart")
+
+console.log("price of item 1 is " + item1)
+
+console.log("Quantitiy of item 1 is " + quantitiItem1)
+
+console.log("Price of item 2 is " + item2)
+
+console.log("Quantitiy of item 2 is " + quantitiItem2)
+
+console.log("Shipping charge " + shippingCharges )
+
+console.log( "Total cost of your order is " + (item1 * 3 + item2 * 7 + 100));
 

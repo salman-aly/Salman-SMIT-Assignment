@@ -133,7 +133,7 @@
     border-bottom-right-radius: 10px;
 }
 
-.box-text h3{
+.box-text h3 {
     font-size: 1.7em;
     line-height: 2;
 }
@@ -161,7 +161,7 @@
 
     .container-one {
         width: 100%;
-        }
+    }
 
     .sec-box {
         width: 90% !important;
@@ -256,6 +256,7 @@
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
+
     .sec-box a {
         text-decoration: none;
     }
