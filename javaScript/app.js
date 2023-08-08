@@ -1,7 +1,7 @@
 //<h1>javaScript Assignment-01</h1>
 
 // <------------------chapterNo-01-------------------->
-   
+
 // Question No 01
 // alert("Welcome SMIT Offical Website")
 
@@ -18,12 +18,7 @@
 // Question No 05
 // console.log("Hello.. i can run JS through my web browser's console")
 
-
-
-
 // <------------------chapterNo-02-------------------->
-
-
 
 // Question No 01
 // var username= "Salman";
@@ -48,7 +43,6 @@
 // alert(studentAge);
 // alert(course);
 
-
 // Question No 05
 
 // var pizza = "PIZZA\nPIZZ\nPIZ\nPIZ\nPI\nP";
@@ -70,20 +64,12 @@
 // var show = "“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”";
 // alert(show);
 
-
-
-
-
 // <------------------chapterNo-03-------------------->
-
-
-
 
 // Question No 1
 
 // var age = " I am 24 years old";
 // alert(age);
-
 
 // Question No 2
 
@@ -96,8 +82,6 @@
 // var msg = " \n Data type of my decalred variable number is";
 // console.log(birthYear + msg)
 
-
-
 // Question No 4
 
 // var name = "John Doe";
@@ -105,15 +89,9 @@
 // var productsQuantity = "15";
 // var store = "www.example.com";
 
-// alert(name + " Ordered " + productsQuantity + productsTitle + " on " + store);
 // console.log(name + " Ordered " + productsQuantity + productsTitle + " on " + store);
 
-
-
-
-
 // <------------------chapterNo-04-------------------->
-
 
 // Question No 1
 
@@ -121,7 +99,6 @@
 // var LasttName = " Ali "
 // var surnameName = " Sallu "
 // alert(firstName + LasttName + surnameName)
-
 
 // Question No 2
 
@@ -133,7 +110,6 @@
 // var name123 = ""
 // var totalMoney = ""
 
-
 // <---------Illegal Variables Names----->
 
 // var var = ""
@@ -141,9 +117,6 @@
 // var fullname = ""
 // var full-name = ""
 // VAR FULLNAME = ""
-
-
-
 
 // Question No 3
 
@@ -154,9 +127,6 @@
 // var e = " Variable names should not be JS " + "Keywords";
 
 // alert(a + "\n" + b  + "\n" + c + "\n" + d + "\n"  + e);
-
-
-
 
 // <------------------chapterNo-05-------------------->
 
@@ -170,7 +140,6 @@
 
 // console.log(para + number + para2 + add + para3 + ( number + add ));
 
-
 // var number = 3;
 // var add = 5;
 // var para = " division "
@@ -178,7 +147,6 @@
 // var para3 = " is "
 
 // console.log(para + number + para2 + add + para3 + ( number / add ));
-
 
 // var number = 3;
 // var add = 5;
@@ -188,7 +156,6 @@
 
 // console.log(para + number + para2 + add + para3 + ( number - add ));
 
-
 // var number = 3;
 // var add = 5;
 // var para = " modulus "
@@ -197,8 +164,6 @@
 
 // console.log(para + number + para2 + add + para3 + ( number % add ));
 
-
-
 // Question no 3
 
 // var cost = "600"
@@ -206,8 +171,6 @@
 
 // "total cost to buy" + value + "tickets to a movie is" + " cost"
 // console.log ( cost * value);
-
-
 
 // Question no 4
 
@@ -251,35 +214,67 @@
 // var value = 10;
 // console.log( table + "X" + value + "=" + (table * value));
 
-
-
-
 // Question no 6
-
-
-
 
 // Question no 7
 
-var item1 = 650;
-var quantitiItem1 = 3;
+// var item1 = 650;
+// var quantitiItem1 = 3;
 
-var item2 = 100;
-var quantitiItem2 = 7;
+// var item2 = 100;
+// var quantitiItem2 = 7;
 
-var shippingCharges = 100;
+// var shippingCharges = 100;
 
-console.log("Shopping Cart")
+// console.log("Shopping Cart")
 
-console.log("price of item 1 is " + item1)
+// console.log("price of item 1 is " + item1)
 
-console.log("Quantitiy of item 1 is " + quantitiItem1)
+// console.log("Quantitiy of item 1 is " + quantitiItem1)
 
-console.log("Price of item 2 is " + item2)
+// console.log("Price of item 2 is " + item2)
 
-console.log("Quantitiy of item 2 is " + quantitiItem2)
+// console.log("Quantitiy of item 2 is " + quantitiItem2)
 
-console.log("Shipping charge " + shippingCharges )
+// console.log("Shipping charge " + shippingCharges )
 
-console.log( "Total cost of your order is " + (item1 * 3 + item2 * 7 + 100));
+// console.log( "Total cost of your order is " + (item1 * 3 + item2 * 7 + 100));
 
+// Question no 8
+
+// var mark = 980;
+// var obtained = 804
+
+// console.log("Total mark: " + mark)
+// console.log("Mark Obtained: " + obtained)
+// console.log("Percentage " + (obtained / mark * 100 + "%"));
+
+// Question no 9
+
+// var us = 10;
+// var usValue = 104.8;
+// var riyal = 25;
+// var saudiValue = 28;
+
+// console.log("Currency in PKR");
+
+// console.log("Total currency in PKR: " + (us * usValue + riyal * saudiValue));
+
+// Question no 10
+
+// var num = 10;
+// console.log(num + 5 + num * 10 + num / 2);
+
+// Question no 11
+
+// console.log("Age Calculator")
+
+// var currentYear = 2023;
+// var birthYear = 1999;
+// var yourAge = 24;
+
+// console.log( "Current Year :" + currentYear)
+// console.log( "Birth Year :" + birthYear)
+// console.log( "Your Age :" + yourAge)
+
+// Question no 12
