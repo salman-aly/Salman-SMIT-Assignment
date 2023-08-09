@@ -1,6 +1,14 @@
 //<h1>javaScript Assignment-01</h1>
 
+
+
+
 // <------------------chapterNo-01-------------------->
+
+
+
+
+
 
 // Question No 01
 // alert("Welcome SMIT Offical Website")
@@ -17,6 +25,11 @@
 
 // Question No 05
 // console.log("Hello.. i can run JS through my web browser's console")
+
+
+
+
+
 
 // <------------------chapterNo-02-------------------->
 
@@ -64,7 +77,17 @@
 // var show = "“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”";
 // alert(show);
 
+
+
+
+
+
 // <------------------chapterNo-03-------------------->
+
+
+
+
+
 
 // Question No 1
 
@@ -91,7 +114,17 @@
 
 // console.log(name + " Ordered " + productsQuantity + productsTitle + " on " + store);
 
+
+
+
+
+
+
 // <------------------chapterNo-04-------------------->
+
+
+
+
 
 // Question No 1
 
@@ -99,6 +132,8 @@
 // var LasttName = " Ali "
 // var surnameName = " Sallu "
 // alert(firstName + LasttName + surnameName)
+
+
 
 // Question No 2
 
@@ -110,6 +145,9 @@
 // var name123 = ""
 // var totalMoney = ""
 
+
+
+
 // <---------Illegal Variables Names----->
 
 // var var = ""
@@ -117,6 +155,10 @@
 // var fullname = ""
 // var full-name = ""
 // VAR FULLNAME = ""
+
+
+
+
 
 // Question No 3
 
@@ -128,7 +170,17 @@
 
 // alert(a + "\n" + b  + "\n" + c + "\n" + d + "\n"  + e);
 
+
+
+
+
+
+
+
 // <------------------chapterNo-05-------------------->
+
+
+
 
 // Question no 1
 
@@ -164,6 +216,9 @@
 
 // console.log(para + number + para2 + add + para3 + ( number % add ));
 
+
+
+
 // Question no 3
 
 // var cost = "600"
@@ -171,6 +226,10 @@
 
 // "total cost to buy" + value + "tickets to a movie is" + " cost"
 // console.log ( cost * value);
+
+
+
+
 
 // Question no 4
 
@@ -214,9 +273,27 @@
 // var value = 10;
 // console.log( table + "X" + value + "=" + (table * value));
 
+
+
 // Question no 6
 
+// var c = 25;
+// var f = 70;
+
+// cValue = (c * 9) / 5 + 32;
+// fValue = ((f - 32) * 5) / 9;
+
+// console.log("25C is " + cValue + "F");
+// console.log("70F is " + fValue + "C");
+
+
+
+
+
 // Question no 7
+
+
+
 
 // var item1 = 650;
 // var quantitiItem1 = 3;
@@ -240,7 +317,13 @@
 
 // console.log( "Total cost of your order is " + (item1 * 3 + item2 * 7 + 100));
 
+
+
+
+
 // Question no 8
+
+
 
 // var mark = 980;
 // var obtained = 804
@@ -248,6 +331,11 @@
 // console.log("Total mark: " + mark)
 // console.log("Mark Obtained: " + obtained)
 // console.log("Percentage " + (obtained / mark * 100 + "%"));
+
+
+
+
+
 
 // Question no 9
 
@@ -260,10 +348,20 @@
 
 // console.log("Total currency in PKR: " + (us * usValue + riyal * saudiValue));
 
+
+
+
+
+
 // Question no 10
 
 // var num = 10;
 // console.log(num + 5 + num * 10 + num / 2);
+
+
+
+
+
 
 // Question no 11
 
@@ -277,4 +375,39 @@
 // console.log( "Birth Year :" + birthYear)
 // console.log( "Your Age :" + yourAge)
 
+
+
+
+
 // Question no 12
+
+// console.log("The Geometrizer")
+
+// var radius = 20;
+// var circum = 125.6799999;
+// var area = 1256.8;
+
+// console.log("Radius of a circle: " , radius)
+// console.log("The Circumfrence is: " + circum)
+// console.log("The area is: " , area)
+
+
+
+
+
+
+// Question no 13
+
+// console.log("The LifeTime Supply Calculator");
+
+// var favSnack = "chocolate chip";
+// var age = 15;
+// var maxAge = 65;
+// perDaySnack = 3;
+
+// console.log("Favorite Snack: " + favSnack);
+// console.log("Current age: " + age );
+// console.log("Estimated maximum age: " + maxAge);
+// console.log("Amount of snacks per day: " + perDaySnack);
+// console.log("You will need 150 chocalte chip to last you until the ripe old age of 65");
+
