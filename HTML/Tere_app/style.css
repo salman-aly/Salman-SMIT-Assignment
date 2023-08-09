@@ -546,6 +546,10 @@ footer button h4 {
         padding-top: 45px;
     }
 
+    .btn-top-ft {
+        margin-left: 25px;
+    }
+
 
     .section-one .left-text h2 {
         font-size: 1.8em;
@@ -559,7 +563,6 @@ footer button h4 {
     .section-one .left-text p {
         width: 100%;
         text-align: center;
-        font-size: 1.2em;
     }
 
     .btn-one {
@@ -568,7 +571,7 @@ footer button h4 {
 
 
     .download-app {
-        width: 76%;
+        width: 90%;
         height: auto;
         flex-direction: column;
         padding-top: 20px;
@@ -605,11 +608,73 @@ footer button h4 {
         font-size: 3vw;
     }
 
-    /* <!---------- Download-app-section-end ------------> */
+    .works h2 {
+        text-align: center;
+        color: #000;
+        font-family: serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 50.346px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
 
+    .works h2 span {
+        font-size: 28px;
+    }
+
+    .works p {
+        width: 90%;
+        text-align: center;
+        color: #9E9DA2;
+        text-align: center;
+        font-family: gilroy;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+        padding-top: 25px;
+        margin: auto;
+        line-height: 1.4;
+    }
+
+    .second-section {
+        position: relative;
+        /* gap: 10%; */
+        margin-top: 250px;
+
+    }
+
+    .mobile-img {
+        position: absolute;
+        right: 29%;
+        top: -67%;
+        /* padding: 30px 70px; */
+        position: relative;
+        /* display: flex; */
+        /* gap: 10%; */
+        margin-top: 150px;
+        /* padding-top: 50px;
+    }
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 768px) {
