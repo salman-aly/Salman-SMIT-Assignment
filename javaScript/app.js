@@ -141,7 +141,7 @@
 
 // var name = ""
 // var fullName = ""
-// var full_Name = ""
+// var full_name = ""
 // var name123 = ""
 // var totalMoney = ""
 
@@ -283,8 +283,8 @@
 // cValue = (c * 9) / 5 + 32;
 // fValue = ((f - 32) * 5) / 9;
 
-// console.log("25C is " + cValue + "F");
-// console.log("70F is " + fValue + "C");
+// console.log(c + "C is " + cValue + "F");
+// console.log(f + "F is " + fValue + "C");
 
 
 
@@ -373,7 +373,9 @@
 
 // console.log( "Current Year :" + currentYear)
 // console.log( "Birth Year :" + birthYear)
-// console.log( "Your Age :" + yourAge)
+// console.log("Your age is : " + (currentYear-birthYear));
+
+
 
 
 
@@ -381,15 +383,7 @@
 
 // Question no 12
 
-// console.log("The Geometrizer")
 
-// var radius = 20;
-// var circum = 125.6799999;
-// var area = 1256.8;
-
-// console.log("Radius of a circle: " , radius)
-// console.log("The Circumfrence is: " + circum)
-// console.log("The area is: " , area)
 
 
 
@@ -403,11 +397,15 @@
 // var favSnack = "chocolate chip";
 // var age = 15;
 // var maxAge = 65;
-// perDaySnack = 3;
+// var perDaySnack = 3;
 
 // console.log("Favorite Snack: " + favSnack);
 // console.log("Current age: " + age );
 // console.log("Estimated maximum age: " + maxAge);
 // console.log("Amount of snacks per day: " + perDaySnack);
-// console.log("You will need 150 chocalte chip to last you until the ripe old age of 65");
+
+// document.write("You will get " + (maxAge-age)*3  + " choclate chip to the last until the ripe old age " + maxAge)
+
+
+
 
