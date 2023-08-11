@@ -11,20 +11,20 @@
 
 
 // Question No 01
-// alert("Welcome SMIT Offical Website")
+// alert("Welcome SMIT Offical Website");
 
 // Question No 02
-// alert("Error! Please enter a valid password.")
+// alert("Error! Please enter a valid password.");
 
 // Question No 03
-// alert("Welcome to JS land ...\n Happy Coding!")
+// alert("Welcome to JS land ...\n Happy Coding!");
 
 // Question No 04
-// alert("Welcome to JS land")
-// alert("Hello Wold")
+// alert("Welcome to JS land");
+// alert("Hello Wold");
 
 // Question No 05
-// console.log("Hello.. i can run JS through my web browser's console")
+// console.log("Hello.. i can run JS through my web browser's console");
 
 
 
@@ -103,7 +103,7 @@
 
 // var birthYear = "My birthday is 2000";
 // var msg = " \n Data type of my decalred variable number is";
-// console.log(birthYear + msg)
+// console.log(birthYear + msg);
 
 // Question No 4
 
@@ -128,10 +128,10 @@
 
 // Question No 1
 
-// var firstName = " Salman "
-// var LasttName = " Ali "
-// var surnameName = " Sallu "
-// alert(firstName + LasttName + surnameName)
+// var firstName = " Salman ";
+// var LasttName = " Ali ";
+// var surnameName = " Sallu ";
+// alert(firstName + LasttName + surnameName);
 
 
 
@@ -139,22 +139,22 @@
 
 // <---------Legal Variables Names------->
 
-// var name = ""
-// var fullName = ""
-// var full_name = ""
-// var name123 = ""
-// var totalMoney = ""
+// var name = "";
+// var fullName = "";
+// var full_name = "";
+// var name123 = "";
+// var totalMoney = "";
 
 
 
 
 // <---------Illegal Variables Names----->
 
-// var var = ""
-// var 123Name = ""
-// var fullname = ""
-// var full-name = ""
-// VAR FULLNAME = ""
+// var var = "";
+// var 123Name = "";
+// var fullname = "";
+// var full-name = "";
+// VAR FULLNAME = "";
 
 
 
@@ -186,33 +186,33 @@
 
 // var number = 3;
 // var add = 5;
-// var para = " sum of "
-// var para2 = " and "
-// var para3 = " is "
+// var para = " sum of ";
+// var para2 = " and ";
+// var para3 = " is ";
 
 // console.log(para + number + para2 + add + para3 + ( number + add ));
 
 // var number = 3;
 // var add = 5;
-// var para = " division "
-// var para2 = " and "
-// var para3 = " is "
+// var para = " division ";
+// var para2 = " and ";
+// var para3 = " is ";
 
 // console.log(para + number + para2 + add + para3 + ( number / add ));
 
 // var number = 3;
 // var add = 5;
-// var para = " subtraction "
-// var para2 = " and "
-// var para3 = " is "
+// var para = " subtraction ";
+// var para2 = " and ";
+// var para3 = " is ";
 
 // console.log(para + number + para2 + add + para3 + ( number - add ));
 
 // var number = 3;
 // var add = 5;
-// var para = " modulus "
-// var para2 = " and "
-// var para3 = " is "
+// var para = " modulus ";
+// var para2 = " and ";
+// var para3 = " is ";
 
 // console.log(para + number + para2 + add + para3 + ( number % add ));
 
@@ -221,10 +221,10 @@
 
 // Question no 3
 
-// var cost = "600"
-// var value = "5"
+// var cost = "600";
+// var value = "5";
 
-// "total cost to buy" + value + "tickets to a movie is" + " cost"
+// "total cost to buy" + value + "tickets to a movie is" + " cost";
 // console.log ( cost * value);
 
 
@@ -303,17 +303,17 @@
 
 // var shippingCharges = 100;
 
-// console.log("Shopping Cart")
+// console.log("Shopping Cart");
 
-// console.log("price of item 1 is " + item1)
+// console.log("price of item 1 is " + item1);
 
-// console.log("Quantitiy of item 1 is " + quantitiItem1)
+// console.log("Quantitiy of item 1 is " + quantitiItem1);
 
-// console.log("Price of item 2 is " + item2)
+// console.log("Price of item 2 is " + item2);
 
-// console.log("Quantitiy of item 2 is " + quantitiItem2)
+// console.log("Quantitiy of item 2 is " + quantitiItem2);
 
-// console.log("Shipping charge " + shippingCharges )
+// console.log("Shipping charge " + shippingCharges );
 
 // console.log( "Total cost of your order is " + (item1 * 3 + item2 * 7 + 100));
 
@@ -326,10 +326,10 @@
 
 
 // var mark = 980;
-// var obtained = 804
+// var obtained = 804;
 
-// console.log("Total mark: " + mark)
-// console.log("Mark Obtained: " + obtained)
+// console.log("Total mark: " + mark);
+// console.log("Mark Obtained: " + obtained);
 // console.log("Percentage " + (obtained / mark * 100 + "%"));
 
 
@@ -365,28 +365,17 @@
 
 // Question no 11
 
-// console.log("Age Calculator")
+// console.log("Age Calculator");
 
 // var currentYear = 2023;
 // var birthYear = 1999;
 // var yourAge = 24;
 
-// console.log( "Current Year :" + currentYear)
-// console.log( "Birth Year :" + birthYear)
+// console.log( "Current Year :" + currentYear);
+// console.log( "Birth Year :" + birthYear);
 // console.log("Your age is : " + (currentYear-birthYear));
 
-
-
-
-
-
-
 // Question no 12
-
-
-
-
-
 
 
 
@@ -404,7 +393,7 @@
 // console.log("Estimated maximum age: " + maxAge);
 // console.log("Amount of snacks per day: " + perDaySnack);
 
-// document.write("You will get " + (maxAge-age)*3  + " choclate chip to the last until the ripe old age " + maxAge)
+// document.write("You will get " + (maxAge-age)*3  + " choclate chip to the last until the ripe old age " + maxAge);
 
 
 
