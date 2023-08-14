@@ -690,6 +690,16 @@
 
 
 
+//  Question no 4
+
+// var alpha = prompt("Enter a single alphabet");
+
+// if (alpha === "a" || alpha === "e" || alpha === "i" || alpha === "o" || alpha === "u"){
+//     document.write("Its vowel");
+// } else{
+//     document.write("Its not vowel")
+// }
+
 
 //  Question no 5
  
@@ -719,4 +729,13 @@
 // }else {
 //     document.write("good morning ");
 // }
+
+
+
+
+
+
+
+
+
 
