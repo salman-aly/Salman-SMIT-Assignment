@@ -1,3 +1,5 @@
+@import url(https://db.onlinewebfonts.com/c/229a57bbeef591e04a1fdfe347c90864?family=Centra+No2);
+
 * {
     margin: 0;
     padding: 0;
@@ -13,17 +15,16 @@
 }
 
 .container-one {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.632)50%, rgba(0, 0, 0, 0.705)50%), url(images/rear-view-programmer-working-all-night-long.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%), url(images/rear-view-programmer-working-all-night-long.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 670px;
     background-position: center;
     padding-bottom: 50px
 }
 
 .container-one {
-    width: 1320px;
+    /* width: 1320px; */
+    /* width: 100%; */
     margin: auto;
     position: relative;
 }
@@ -50,268 +51,157 @@
 }
 
 .section-one span {
-    color: #F5C750;
+    color: #358DDE;
     font-weight: 900 !important;
     font-size: 3rem;
 }
 
 .section-one p {
-    color: #fff;
-    font-size: 1.3rem;
+    color: #ccc5c5;
+    font-size: 1em;
     text-align: center;
     padding-top: 15px;
-    line-height: 1.4;
+    line-height: 1.6;
+    font-family: "Centra No2";
 }
 
 .section-one button {
-    width: 135px;
+    width: 165px;
     height: 35px;
     justify-content: center;
-    background-color: transparent;
-    border: 2px solid #F5C750;
-    border-radius: 5px;
-    margin-left: 43%;
+    background-color: #358DDE;
+    border: none;
+    border-radius: 50px;
     margin-top: 30px;
 }
 
 .section-one button a {
     text-decoration: none;
-    color: #F5C750;
+    color: #ffffff;
     font-size: 1rem;
     font-weight: 700;
 }
 
-.section-two {
-    /* height: 600px; */
-    width: 1320px;
-    background-color: #0A174E;
-    margin: auto;
-    position: relative;
-    padding-top: 60px;
-    padding-bottom: 150px;
-}
+/* .sec-btn :hover{
+    background-color: #F5C750;
+    color: #ffffff;
+} */
 
-.sec-assignment {
-    width: 1260px;
+
+.sec-btn {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 30px;
-    padding-top: 5vh;
-    /* justify-content: space-evenly; */
+    gap: 45px;
+
 }
 
-.section-two h2 {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 700;
-    color: #F5C750;
+.btn-sec-one {
+    border: none !important;
+    background-color: #358DDE !important;
 }
 
-.sec-box {
-    width: 30%;
-    height: 150px;
-    margin-bottom: 150px;
-    box-sizing: border-box;
+.section-two {
+    width: 100%;
+    margin: 0 auto;
     position: relative;
+    /* width: 1240px; */
 }
 
-.sec-box img {
-    width: 100%;
-    /* height: 35vh; */
+.two-inner-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-top: 50px;
+    /* width: 1320px; */
+    margin: 0 auto;
+    /* width: 100%; */
 }
 
-.box-text {
-    height: 60px;
-    width: 100%;
-    margin-top: -4px;
-    background-color: #E3E3E3;
+.section-two h1 {
     text-align: center;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    padding-top: 65px;
+    font-size: 45px;
+    color: #358DDE;
+    text-transform: uppercase;
+    font-family: "Centra No2";
 }
 
-.box-text h3 {
-    font-size: 1.7em;
-    line-height: 2;
+.one-container {
+    width: 30%;
+    height: 260px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: 0.6s;
+    background-color: #1D2433;
+    border-radius: 5px;
+    /* transform: translateY(-2.76057px) translateZ(0px); */
+
 }
 
-.sec-box a {
+.one-container :hover {
+    transition: 0.6s;
+    opacity: 1;
+    transform: translateY(0em) translateZ(0px);
+}
+
+.one-container a {
     text-decoration: none;
+    color: #ffffff;
+}
+
+.one-container img {
+    width: 100%;
+}
+
+.text-img {
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+.section-three {
+    background-color: #358DDE;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 425px) {
-
-    .container-one {
-        width: 100%;
-    }
-
-    .sec-box {
-        width: 90% !important;
-        height: auto;
-
-    }
-
-    .sec-assignment {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-
-    }
-
-
-
-    .logo img {
-        width: 100%;
-        height: 10vh;
-        padding-left: 0px;
-    }
-
-    .section-one h2 {
-        color: #ffffff;
-        text-align: center;
-        padding-top: 0px;
-        font-weight: 600 !important;
-        font-size: 1.8rem;
-        padding-top: 80px;
-    }
-
-    .section-one span {
-        color: #F5C750;
-        font-weight: 600 !important;
-        font-size: 2rem;
-    }
-
-    .section-one p {
-        color: #fff;
-        font-size: 1rem;
-        text-align: center;
-        line-height: 1.6;
-        padding: 15px 10px;
-        padding-top: 25px;
-        padding-bottom: 30px;
-    }
-
-    .section-one button {
-        width: 35vw;
-        height: 35px;
-        justify-content: center;
-        background-color: transparent;
-        border: 2px solid #F5C750;
-        border-radius: 5px;
-        margin-left: 30%;
-        margin-top: 15px;
-    }
-
-    .section-one button a {
-        text-decoration: none;
-        color: #F5C750;
-        font-size: 1rem;
-        font-weight: 600;
-    }
-
-    .section-two {
-        /* height: auto; */
-        width: 100%;
-        background-color: #1491CD;
-        position: relative;
-        padding-top: 10vh;
-    }
-
-    .section-two h2 {
-        font-size: 2em;
-    }
-
-    .sec-box img {
-        width: 100%;
-        /* height: 100%; */
-    }
-
-    .box-text {
-        height: 50px;
-        width: 100%;
-        margin-top: -4px;
-        background-color: #E3E3E3;
-        text-align: center;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-    }
-
-    .sec-box a {
-        text-decoration: none;
-    }
-
-
+.section-three h1 {
+    color: #ffffff;
 }
 
 
 
+.footer{
+   width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: #010A16;
+    color: #F9F9F9;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Centra No2";
+    padding-top: 35px;
+    /* border-top-left-radius: 20px !important; */
+}
 
+.footer-main{
+    display: flex;
+    justify-content: center;
+}
+.footer-main h2{
+    font-size: 3rem;
+    
+}
+.footer-main .one{
+    font-size: 2rem;  
+}
+.policy{
+    margin-top: 65px;
+} 
 
-
-
-
-@media screen and (max-width:768px) {
-    .container-one {
-        width: 100%;
-        height: auto;
-    }
-
-    .logo img {
-        width: 350px;
-        /* height: 30px; */
-    }
-
-
-    .section-two {
-        height: auto;
-        width: 100%;
-        background-color: #1491CD;
-        position: relative;
-        padding-top: 10vh;
-    }
-
-    .sec-assignment {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .sec-box {
-        width: 40%;
-        height: 25vh;
-        margin-bottom: 20vh;
-        box-sizing: border-box;
-    }
-
-    .sec-box a {
-        text-decoration: none;
-    }
-
-    .sec-box a h3 {
-        font-size: 18px;
-    }
+.policy span{
+    color: #358DDE;
 }

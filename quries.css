@@ -1,0 +1,120 @@
+@media screen and (max-width: 768px) {
+    .container-one {
+        width: 100% !important;
+    }
+
+
+    .one-container {
+        width: 40% !important;
+        height: 235px !important;
+        text-align: center;
+        margin-bottom: 30px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        transition: 0.6s;
+        background-color: #1D2433;
+        border-radius: 5px;
+    }
+
+    .footer{
+        width: 100% !important;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-one {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .section-one span {
+        color: #1ccd0c;
+        font-weight: 900 !important;
+        font-size: 1.8rem !important;
+    }
+
+    .section-one h2 {
+        color: #E3E3E3;
+        text-align: center;
+        padding-top: 130px;
+        font-weight: 800 !important;
+        line-height: 150%;
+        font-size: 1.8rem !important;
+    }
+
+    .section-one p {
+        color: #fff;
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 15px;
+        line-height: 1.4;
+        padding: 8px 10px;
+    }
+
+    .sec-btn {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px !important;
+    }
+
+    .section-one button {
+        width: 135px;
+        height: 35px;
+        justify-content: center;
+        background-color: transparent;
+        border: 2px solid #F5C750;
+        border-radius: 5px;
+        margin-left: 30% !important;
+    }
+
+    .two-inner-main {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* gap: 25px; */
+        padding-top: 15px !important;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-two h1 {
+        text-align: center;
+        padding-top: 25px !important;
+        font-size: 1.5rem !important;
+        color: #358DDE;
+        text-transform: uppercase;
+        font-family: "Centra No2";
+    }
+
+    .one-container {
+        width: 90% !important;
+        height: 265px !important;
+        text-align: center;
+        margin-bottom: 30px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        transition: 0.6s;
+        background-color: #1D2433;
+        border-radius: 5px;
+    }
+
+    .footer{
+        width: 100% !important;
+        padding-bottom: 10px !important;
+    }
+    .footer-main h2 {
+        font-size: 2rem !important;
+    }
+
+    .footer-main .icons {
+        margin-top: 15px !important;
+    }
+}
