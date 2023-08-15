@@ -46,24 +46,27 @@
 // document.write("Math ")
 // document.write(" 100 ")
 // document.write(obtainedmath + " ")
-// document.write((obtainedmath * 100 / 100) + " % </br>"); 
+// document.write((obtainedmath * totalMark / 100) + " % </br>"); 
 
 // var eng =prompt("Enter your english total mark :");
 // document.write("English ")
 // document.write(" 100 ")
 // document.write(obtainedEng + " ")
-// document.write((obtainedEng * 100 / 100) + " % </br>");
+// document.write((obtainedEng * totalMark / 100) + " % </br>");
 
 // var bio =prompt("Enter your biology total mark :");
 // document.write("Biology ")
 // document.write(" 100 ")
 // document.write(obtainedBio + " ")
-// document.write((obtainedBio * 100 / 100) + " % </br>");
+// document.write((obtainedBio * totalMark / 100) + " % </br>");
 
 // document.write((totalMark * 3));
 
+
 // var totalObtainedMark = (obtainedBio + obtainedEng + obtainedmath);
-// document.write(totalObtainedMark / (3 * 100) * 100)
+
+// document.write(totalObtainedMark / ( 3 * totalMark)  * 100 + " %")
+
 
 
 
