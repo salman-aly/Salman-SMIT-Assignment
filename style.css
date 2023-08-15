@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 
@@ -104,7 +105,7 @@
     width: 100%;
     margin: 0 auto;
     position: relative;
-    /* width: 1240px; */
+    /* width: 1320px; */
 }
 
 .two-inner-main {
@@ -115,7 +116,7 @@
     padding-top: 50px;
     /* width: 1320px; */
     margin: 0 auto;
-    /* width: 100%; */
+    width: 100%;
 }
 
 .section-two h1 {
@@ -136,7 +137,7 @@
     transition: 0.6s;
     background-color: #1D2433;
     border-radius: 5px;
-    /* transform: translateY(-2.76057px) translateZ(0px); */
+    transform: translateY(-2.76057px) translateZ(0px);
 
 }
 
@@ -184,7 +185,7 @@
     font-size: 14px;
     font-family: "Centra No2";
     padding-top: 35px;
-    /* border-top-left-radius: 20px !important; */
+    /* border-top-left-radius: 50px !important; */
 }
 
 .footer-main{
