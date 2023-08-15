@@ -439,9 +439,9 @@
 // Question no 6
 
 // var totalMark = 100;
-// var obtainedBio = 67;
-// var obtainedEng = 73;
-// var obtainedmath = 86;
+// var obtainedBio = 54;
+// var obtainedEng = 54;
+// var obtainedmath = 48;
 
 // var math =prompt("Enter your math total mark :");
 // document.write("Subject Total mark Obtained marks Percentage </br>")
@@ -470,6 +470,7 @@
 
 
 
+
 // <------------------chapterNo-09-11-------------------->
 
 // Question no 1
@@ -489,8 +490,6 @@
 //     document.write("Good Morning, Sir");
 // }else if(gender==="female"){
 //     document.write("Good Morning, Maam");
-// }else{
-//     document.write("Good Morning " + gender);
 // }
 
 
@@ -588,6 +587,8 @@
 // }
 
 // Question no 5 (f)
+
+// car is smaller than car b/c its depend on unicode of Character so ca of both words are same value in alphabatically but t came first in alphbet than r thats why car is smaller than cat
 
 // if("car" < "cat"){
 //     alert("car is smaller than cat");
