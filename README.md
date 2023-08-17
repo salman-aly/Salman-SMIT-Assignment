@@ -1,2 +1,2 @@
-# Salman SMIT assignments
-https://smit-salman.netlify.app
+# Salman Portfolio
+https://salmanaly.netlify.app
