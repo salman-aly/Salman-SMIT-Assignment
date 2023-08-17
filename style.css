@@ -10,9 +10,11 @@
 
 .main {
     width: 100%;
+    /* width: 1263px; */
     position: relative;
     overflow: hidden;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .container-one {
@@ -114,9 +116,9 @@
     flex-wrap: wrap;
     gap: 25px;
     padding-top: 50px;
-    /* width: 1320px; */
+    width: 1260px;
     margin: 0 auto;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .section-two h1 {
@@ -217,3 +219,5 @@
 .policy span {
     color: #358DDE;
 }
+
+

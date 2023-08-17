@@ -1,6 +1,15 @@
 @media screen and (max-width: 768px) {
-    .container-one {
+    /* .container-one {
         width: 100% !important;
+    } */
+
+    .two-inner-main {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 15px !important;
+        align-items: center;
     }
 
 
@@ -25,6 +34,10 @@
 
 
 @media screen and (max-width: 480px) {
+
+    .main{
+        width: 100% !important;
+    }
     .logo {
         display: flex;
         justify-content: center;
@@ -77,6 +90,7 @@
     }
 
     .two-inner-main {
+        width: 100% !important;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
