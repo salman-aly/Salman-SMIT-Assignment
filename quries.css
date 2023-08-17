@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
-    /* .container-one {
+    .container-one {
         width: 100% !important;
-    } */
+    }
 
     .two-inner-main {
         width: 100% !important;
@@ -110,8 +110,8 @@
     }
 
     .one-container {
-        width: 90% !important;
-        height: 265px !important;
+        width: 80% !important;
+        height: 260px !important;
         text-align: center;
         margin-bottom: 30px;
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
