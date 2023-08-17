@@ -4,6 +4,31 @@
 
 // Question no 1
 
+// var a = 10;
+
+// document.write("<br/> The value of a is: " + a);
+// document.write(" <br/> .............");
+
+// document.write("<br/>");
+
+// document.write("<br/> The value of ++a is: " + ++a);
+// document.write(" <br/>Now the value of a is :" + a);
+
+
+// document.write("<br/>");
+
+// document.write("<br/> The value of a++ is: " + a++);
+// document.write(" <br/>Now the value of a is :" + a);
+
+// document.write("<br/>");
+
+// document.write("<br/> The value of --a is: " + --a);
+// document.write(" <br/>Now the value of a is :" + a);
+
+// document.write("<br/>");
+
+// document.write("<br/> The value of a-- is: " + a--);
+// document.write(" <br/>Now the value of a is :" + a);
 
 
 // Question no 2
