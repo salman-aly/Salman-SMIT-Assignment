@@ -295,6 +295,38 @@
 // }
 
 
+//  Question no 11
+
+
+// var firstNum = +prompt("Enter The First Number");
+
+// var secondNum = +prompt("Enter The Second Number");
+
+// var operationSign = prompt("Enter the Value for Calculation(+,-,*,/,%)");
+
+// var result;
+// if (operationSign === "+"){
+//     result = firstNum + secondNum;
+//     document.write("The calculated value is " + result);
+// } else if ( operationSign === "-"){
+//     result = firstNum - secondNum;
+//     document.write("The calculated value is " + result);
+// } else if ( operationSign === "*"){
+//     result = firstNum * secondNum;
+//     document.write("The calculated value is " + result);
+// } else if ( operationSign === "/"){
+//     result = firstNum / secondNum;
+//     document.write("The calculated value is " + result);
+// } else if ( operationSign === "%"){
+//     result = firstNum % secondNum;
+//     document.write("The calculated value is " + result);
+// } else{
+//     document.write("Please input the right value here");
+// }
+
+
+
+
 
 
 
