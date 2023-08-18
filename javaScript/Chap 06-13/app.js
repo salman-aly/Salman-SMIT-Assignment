@@ -214,7 +214,7 @@
 
 // Question no 5 (f)
 
-// car is smaller than car b/c its depend on unicode of Character so ca of both words are same value in alphabatically but t came first in alphbet than r thats why car is smaller than cat
+// car is smaller than cat b/c its depend on unicode of Character so ca of both words are same value in alphabatically but t came first in alphbet than r thats why car is smaller than cat
 
 // if("car" < "cat"){
 //     alert("car is smaller than cat");
@@ -305,6 +305,7 @@
 // var operationSign = prompt("Enter the Value for Calculation(+,-,*,/,%)");
 
 // var result;
+
 // if (operationSign === "+"){
 //     result = firstNum + secondNum;
 //     document.write("The calculated value is " + result);
