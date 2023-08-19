@@ -534,6 +534,8 @@ footer button h4 {
 }
 
 
+
+
 /* new-end */
 
 
@@ -721,12 +723,12 @@ footer button h4 {
     }
 
     .middle .circle-img{
-        width: 325px;
+        width: 310px;
     }
 
     .mobile-img {
         position: absolute;
-        right: 40px;
+        right: 20px;
         top: -8%;
     }
 
@@ -804,6 +806,19 @@ footer button h4 {
         flex-direction: row;
         gap: 5px;
     }
+    .img_wrapper::before {
+        content: "1";
+        position: absolute;
+        top: 19px;
+        font-size: 22px;
+        color: green;
+        right: 67px;
+    }
+    .img_wrapper{
+        position: relative;
+    }
+
+
 
 }
 
