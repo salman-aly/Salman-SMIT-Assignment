@@ -1,9 +1,10 @@
 // <!----------------------- <h2>Chap 14-16 Assignment</h2> --------------------->
 
 // Question no #1
-// var a = [];
+// var students = [];
 
 // Question no #2
+// students = [];
 
 // Question no #3
 // var nameString = ["Salman" , "Asif" , "Ahmed"];
@@ -39,30 +40,47 @@
 //     "8)" +
 //     "phD </br>",
 // ];
-// document.write(qualifications);
 
-// Question no #8
-// var studentNames = ["Salman", "Rizwan", "Kamran"];
+//////////////////////-----Question no #8-------/////////////////////////////////////
+// var students = ["Ali", "Ahmed", "Salman"];
+// var totalMark = 500;
 
-// var totalScore = 500;
-// var studentsScores = ["360", "275", "484"];
+// var score = ["350", "390", "310"];
 
-// var studentsPercentage = [
-//   "Score of Salman is  360. " + "Percentage " + (360 / 500) * 100 + "% </br>",
+// var Percentage = [
+//   "Score of " +
+//     students[0] +
+//     " is: " +
+//     score[0] +
+//     ". Percentage " +
+//     (score[0] / totalMark) * 100 +
+//     "%  </br>",
 // ];
-// document.write(studentsPercentage);
+// document.write(Percentage);
 
-// var studentsPercentage = [
-//   "Score of Salman is  275. " + "Percentage " + (275 / 500) * 100 + "% </br>",
+// var Percentage = [
+//   "Score of " +
+//     students[1] +
+//     "is" +
+//     score[1] +
+//     ". Percentage" +
+//     (score[1] / totalMark) * 100 +
+//     "% </br>",
 // ];
-// document.write(studentsPercentage);
+// document.write(Percentage);
 
-// var studentsPercentage = [
-//   "Score of Salman is  484. " + "Percentage " + (484 / 500) * 100 + "% </br>",
+// var Percentage = [
+//   "Score of " +
+//     students[2] +
+//     "is" +
+//     score[2] +
+//     ". Percentage" +
+//     (score[2] / totalMark) * 100 +
+//     "%  </br>",
 // ];
-// document.write(studentsPercentage);
+// document.write(Percentage);
 
-// Question no #9
+// //////////////////////-----Question no #9-------/////////////////////////////////////
 
 // // // Question (a)
 
@@ -109,8 +127,6 @@
 // colorNames.pop();
 // document.write(colorNames);
 
-
-
 // //  Question (f)
 
 // var colorNames =["Blue","Red ","Pink ","Orange ","Black ","White "];
@@ -121,3 +137,65 @@
 // colorNames.splice(2,2, addColor , colorPostion);
 
 // document.write(colorNames);
+
+// //  Question (g)
+
+// //////////////////////-----Question no #10-------/////////////////////////////////////
+
+// //////////////////////-----Question no #11-------/////////////////////////////////////
+
+// document.write(<h4>Cities List :</h4>);
+
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawaar"];
+
+// // document.write(<h4>Seeleted Cities List :</h4>);
+
+// var selectedCities = cities.slice(2, 4);
+// document.write(selectedCities);
+
+// //////////////////////-----Question no #12-------/////////////////////////////////////
+
+// var arr = ["This ", "is ", "my ", "cat"];
+// document.write("Array </br>" +arr + "</br>");
+
+// var string = arr.join(" ");
+// document.write("String </br> " +string + " </br>")
+
+// //////////////////////-----Question no #13-------/////////////////////////////////////
+
+// <-----------FIFO------------>
+
+// var device = ["keyboard", "Mouse", "Printer", "Moniter"];
+// document.write("Devices : </br>" + device);
+
+// var returnValueOfDevices = device.shift();
+// document.write("</br> Out : </br>" + returnValueOfDevices);
+
+// var returnValueOfDevices = device.shift();
+// document.write("</br> Out : </br>" + returnValueOfDevices);
+
+// var returnValueOfDevices = device.shift();
+// document.write("</br> Out : </br>" + returnValueOfDevices);
+
+// var returnValueOfDevices = device.shift();
+// document.write("</br> Out : </br>" + returnValueOfDevices);
+
+// //////////////////////-----Question no #14-------/////////////////////////////////////
+
+// <-----------LIFO------------>
+
+// var device = ["keyboard", "Mouse", "Printer", "Moniter"];
+
+// document.write("Devices : </br>" + device);
+
+// var returnValueOfDevices = device.pop();
+// document.write(" </br> Out : </br>" + returnValueOfDevices);
+
+// var returnValueOfDevices = device.pop();
+// document.write(" </br> Out : </br>" + returnValueOfDevices);
+
+// var returnValueOfDevices = device.pop();
+// document.write(" </br> Out : </br>" + returnValueOfDevices);
+
+// var returnValueOfDevices = device.pop();
+// document.write(" </br> Out : </br>" + returnValueOfDevices);
