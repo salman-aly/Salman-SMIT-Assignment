@@ -72,6 +72,11 @@
         padding: 8px 10px;
     }
 
+    .text-img {
+        padding-top: 35px !important;
+        text-transform: capitalize;
+    }
+
     .sec-btn {
         display: flex;
         justify-content: center;
