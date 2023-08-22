@@ -11,7 +11,7 @@
 
 }
 
-.for-mb-only{
+.for-mb-only {
     display: none !important;
 }
 
@@ -236,9 +236,10 @@ header {
     text-align: left;
 }
 
-.right-side p{
+.right-side p {
     color: #9E9DA2;
     font-size: 1.2rem;
+    margin-bottom: 15px;
 }
 
 .three-dot {
@@ -546,17 +547,17 @@ footer button h4 {
 
 
 
-@media screen and (max-width: 433px) {
+@media screen and (max-width: 425px) {
 
-    .for-pc-only{
+    .for-pc-only {
         display: none !important;
     }
 
-    .for-mb-only{
+    .for-mb-only {
         display: block !important;
     }
 
-    
+
     .main-container {
         width: 100%;
     }
@@ -587,6 +588,14 @@ footer button h4 {
         flex-direction: column-reverse;
     }
 
+    .btn-ft-top .white a {
+        font-size: 0.5rem !important;
+    }
+
+    .btn-ft img {
+        height: 25px !important;
+    }
+
     .right {
         width: 100%;
         padding-right: 0px;
@@ -610,7 +619,7 @@ footer button h4 {
 
     .section-one .left-text button {
         width: 300px !important;
-        height: 55px;
+        height: 40px;
         background-color: #000;
         border: none;
         border-radius: 3px;
@@ -631,6 +640,17 @@ footer button h4 {
     .section-one .left-text p {
         width: 100%;
         text-align: center;
+    }
+
+    .section-h1 {
+        color: #fff;
+        font-size: 2.5rem;
+        margin-top: 25px;
+        background-color: #75BF7A;
+        border-radius: 50px;
+        width: 30%;
+        text-align: center;
+        margin: auto;
     }
 
     .btn-one {
@@ -701,7 +721,7 @@ footer button h4 {
         text-align: center;
         justify-content: center;
         align-items: center;
-        /* padding: 30px 60px; */
+        padding: 0px 60px;
         flex-direction: column-reverse;
     }
 
@@ -722,7 +742,7 @@ footer button h4 {
         margin-bottom: 235px;
     }
 
-    .middle .circle-img{
+    .middle .circle-img {
         width: 310px;
     }
 
@@ -748,7 +768,7 @@ footer button h4 {
         position: relative;
     }
 
-    .right-side .img-h1-left{
+    .right-side .img-h1-left {
         position: absolute;
         left: 46%;
         top: 6%;
@@ -774,9 +794,18 @@ footer button h4 {
     .one p {
         color: #9E9DA2;
         font-size: 1.2rem;
-        padding: 25px 30px;
     }
-    
+
+    .one-p1 {
+        color: #9E9DA2;
+        font-size: 1.2rem;
+    }
+
+    .top-bottom {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
     footer {
         display: flex;
         justify-content: space-between;
@@ -790,7 +819,7 @@ footer button h4 {
         gap: 25px;
     }
 
-    .footer-logo{
+    .footer-logo {
         margin-right: 50px;
     }
 
@@ -801,11 +830,12 @@ footer button h4 {
     }
 
 
-    .btn-top-ft{
+    .btn-top-ft {
         display: flex;
         flex-direction: row;
         gap: 5px;
     }
+
     .img_wrapper::before {
         content: "1";
         position: absolute;
@@ -814,25 +844,11 @@ footer button h4 {
         color: green;
         right: 67px;
     }
-    .img_wrapper{
+
+    .img_wrapper {
         position: relative;
     }
 
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
