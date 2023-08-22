@@ -185,6 +185,11 @@ header {
     background-color: #000;
 }
 
+
+.left-part .new-top {
+    margin-top: -53px !important;
+}
+
 .download-app button a {
     color: #fff;
     font-size: 1em;
