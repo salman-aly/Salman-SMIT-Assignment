@@ -141,10 +141,10 @@
 }
 
 /* .one-container :hover {
-    transition: 0.4s;
-    transition-timing-function: ease-in-out;
-    transform: translateY(-5px);
-    transform: scale(1.09);
+    transition: 0.4s !important;
+    transition-timing-function: ease-in-out !important;
+    transform: translateY(-5px) !important;
+    transform: scale(1.09) !;
 } */
 
 .one-container a {
@@ -167,13 +167,9 @@
     border-top-right-radius: 30px;
 }
 
-
-
 .section-three h1 {
     color: #ffffff;
 }
-
-
 
 .footer {
     width: 100%;
