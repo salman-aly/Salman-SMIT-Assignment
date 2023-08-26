@@ -74,6 +74,17 @@ header button {
     margin: 0 auto;
 }
 
+.section-one .second-btn{
+    border: none;
+   justify-content: center;
+   
+}
+
+.section-one i {
+    font-size: 25px;
+    margin-bottom: -7px;
+}
+
 .section-one .dots img {
     display: flex;
     margin-top: 70px;
