@@ -440,6 +440,7 @@ header button {
     padding: 5px 15px;
     font-size: 18px;
     margin-top: 16px;
+    width: 224px;
 }
 
 .footer .ft-cont-one{
@@ -451,6 +452,7 @@ header button {
     justify-content: space-around;
     align-items: center;
     color: #fff;
+    padding: 0px 65px;
 }
 
 .footer-main .payment{
