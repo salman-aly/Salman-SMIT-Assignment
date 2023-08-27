@@ -390,7 +390,7 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        padding: 85px 0px;
+        padding: 30px 0px !important;
         color: #fff;
         line-height: 2;
         flex-direction: column !important;

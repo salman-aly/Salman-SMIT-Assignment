@@ -174,7 +174,7 @@ header button {
 .section-two .text-box-btn button {
     width: 180px;
     height: 35px;
-    border: 2px solid #C6866B;
+    border: 1.5px solid #C6866B;
     border-radius: 25px;
     background-color: transparent;
 }
@@ -327,9 +327,9 @@ header button {
 
 
 .section-three button {
-    width: 110px;
+    width: 120px;
     padding: 5px 0px;
-    border: 2px solid #C6866B;
+    border: 1.5px solid #C6866B;
     border-radius: 28px;
     justify-content: center;
     display: flex;
