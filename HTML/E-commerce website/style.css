@@ -286,6 +286,8 @@ header button {
     box-sizing: border-box;
     text-transform: uppercase;
     margin-top: 25px;
+    background-color: #E0E8EE;
+    border-radius: 10px;
 }
 
 .section-three .cont-one:hover{
