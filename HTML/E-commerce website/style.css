@@ -281,13 +281,17 @@ header button {
     /* background-color: #f5f1f1; */
     align-items: center;
     justify-content: center;
+    border: none;
     text-align: center;
-    background-color: #ededed;
-    border: 5px solid #ededed;
     box-sizing: border-box;
-    box-shadow: 0px 1px 1px rgb(189, 185, 185);
     text-transform: uppercase;
     margin-top: 25px;
+}
+
+.section-three .cont-one:hover{
+    background-color: #ededed;
+    border: none;
+    border-radius: 10px;
 }
 
 .section-three .cont-one h4 {
