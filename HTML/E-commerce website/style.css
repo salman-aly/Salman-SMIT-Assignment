@@ -124,11 +124,14 @@ header button {
 
 .section-inner .left-side h2 {
     font-size: 64px;
+    text-shadow: 0px 4px 4px #808080;
 }
 
 .section-inner .left-side p {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 22px;
+    color: #808080;
+    font-weight: 600;
 }
 
 .section-inner button {
@@ -188,7 +191,7 @@ header button {
     width: 25%;
     /* height: 370px; */
     flex-shrink: 0;
-    /* background-color: #ededed; */
+    background-color: #ededed;
     border: 2px solid #ededed;
     border-radius: 10px;
     /* box-shadow: 0px 1px 1px rgb(189, 185, 185); */
@@ -258,6 +261,7 @@ header button {
     padding-top: 60px;
 }
 
+
 .section-three .heading-arrow {
     display: flex;
     justify-content: space-between;
@@ -278,7 +282,8 @@ header button {
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 2px solid #ededed;
+    background-color: #ededed;
+    border: 5px solid #ededed;
     box-sizing: border-box;
     box-shadow: 0px 1px 1px rgb(189, 185, 185);
     text-transform: uppercase;
@@ -369,7 +374,9 @@ header button {
 .section-five .right-box {
     width: 350px;
     height: 400px;
-    border: 2px solid #ededed;
+    border-radius: 5px;
+    background-color: #ededed;
+    border: 5px solid #ededed;
 }
 
 .section-five .right-box img {
@@ -379,7 +386,9 @@ header button {
 .section-five .left-box {
     width: 250px;
     height: 300px;
-    border: 2px solid #ededed;
+    background-color: #ededed;
+    border: 5px solid #ededed;
+    border-radius: 5px;
     text-align: center;
 }
 
@@ -443,16 +452,25 @@ header button {
 .footer li{
     color: #AFAFAF;
 }
-.footer .email{
-    display: flex;
-    align-items: center;
-    gap: 160px;
-    border: 1px solid #ededed;
+.footer .emails > input{
+    width: 230px;
+    padding: 10px 10px;
     border-radius: 30px;
-    padding: 5px 15px;
-    font-size: 18px;
-    margin-top: 16px;
-    width: 224px;
+    border: 1px solid #dadada;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+}
+::placeholder {
+    color: #fff;
+}
+
+.footer .emails img{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 5px;
 }
 
 .footer .ft-cont-one{

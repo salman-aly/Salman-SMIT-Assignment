@@ -191,6 +191,12 @@
     color: #358DDE !important;
 }
 
+.figma .figma-img {
+    width: 70%;
+}
+.figma .figma-img img {
+    width: 100%;
+}
 
 .footer-main {
     display: flex;
