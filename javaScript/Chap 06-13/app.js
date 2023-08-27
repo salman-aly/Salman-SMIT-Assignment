@@ -1,7 +1,5 @@
 // <------------------chapterNo-06-09-------------------->
 
-
-
 // Question no 1
 
 // var a = 10;
@@ -13,7 +11,6 @@
 
 // document.write("<br/> The value of ++a is: " + ++a);
 // document.write(" <br/>Now the value of a is :" + a);
-
 
 // document.write("<br/>");
 
@@ -30,7 +27,6 @@
 // document.write("<br/> The value of a-- is: " + a--);
 // document.write(" <br/>Now the value of a is :" + a);
 
-
 // Question no 2
 
 // var a = 2;
@@ -40,8 +36,8 @@
 
 // document.write("</br>var result = --a - --b + ++b + b--");
 
-// document.write("</br>--a = 1"); 
-// document.write("</br>--b = 0"); 
+// document.write("</br>--a = 1");
+// document.write("</br>--b = 0");
 
 // document.write("</br>--a - --b = " +(1 - 0));
 
@@ -52,12 +48,10 @@
 
 // document.write("</br> result is 3");
 
-
 // Question no 3
 
 // var userName = prompt("enter your name");
 // document.write("Hi " + userName + " welcome");
-
 
 // Question no 6
 
@@ -71,7 +65,7 @@
 // document.write("Math ")
 // document.write(" 100 ")
 // document.write(obtainedmath + " ")
-// document.write((obtainedmath * totalMark / 100) + " % </br>"); 
+// document.write((obtainedmath * totalMark / 100) + " % </br>");
 
 // var eng =prompt("Enter your english total mark :");
 // document.write("English ")
@@ -87,15 +81,9 @@
 
 // document.write((totalMark * 3));
 
-
 // var totalObtainedMark = (obtainedBio + obtainedEng + obtainedmath);
 
 // document.write(totalObtainedMark / ( 3 * totalMark)  * 100 + " %")
-
-
-
-
-
 
 // <------------------chapterNo-09-11-------------------->
 
@@ -108,7 +96,6 @@
 //     document.write("Welcome to " + city);
 // }
 
-
 // Question no 2
 
 // var gender = prompt(" Enter your gender");
@@ -117,7 +104,6 @@
 // }else if(gender==="female"){
 //     document.write("Good Morning, Maam");
 // }
-
 
 // Question no 3
 
@@ -132,8 +118,6 @@
 //     document.write("Enter correct signal color");
 // }
 
-
-
 // Question no 4
 
 // var fuel = prompt("Enter current fuel in litres");
@@ -142,9 +126,6 @@
 // }else{
 //     document.write("No need to refill");
 // }
-
-
-
 
 // Question no 5
 
@@ -184,7 +165,6 @@
 //     alert("condition 3 is true");
 // }
 
-
 // Question no 5 (c) (iv)
 
 // var c = 14;
@@ -202,7 +182,6 @@
 // alert("The cost equals");
 // }
 
-
 // Question no 5 (e)
 
 // if (true){
@@ -214,15 +193,13 @@
 
 // Question no 5 (f)
 
-// car is smaller than cat b/c its depend on unicode of Character so ca of both words are same value in alphabatically but t came first in alphbet than r thats why car is smaller than cat
+// car is smaller than cat b/c its depend on unicode of Character so <br> ca of both words are same value in alphabatically but t came first in alphbet than r thats why car is smaller than cat
 
 // if("car" < "cat"){
 //     alert("car is smaller than cat");
 // }
 
-
 // Question no 6
-
 
 // var mark = prompt("Enter your marks");
 // if (mark >= 80){
@@ -242,8 +219,6 @@
 // document.write("</br>Grade:" + "C");
 // document.write("</br>Remarks:" + "You need to improve");
 
-
-
 // Question no 7
 
 // document.write("<h1>Guess Game</h1>");
@@ -258,7 +233,6 @@
 //     document.write("Keep trying...");
 // }
 
-
 // Question no 8
 // var num = prompt("Enter a number")
 // if (num % 3 ===0){
@@ -266,7 +240,6 @@
 // }else{
 //     document.write(num + " is not divisible by 3");
 // }
-
 
 //  Question no 9
 
@@ -276,7 +249,6 @@
 // }else {
 //     document.write (num + " is odd number");
 // }
-
 
 //  Question no 10
 
@@ -294,9 +266,7 @@
 //     document.write("Enter the correct temperature");
 // }
 
-
 //  Question no 11
-
 
 // var firstNum = +prompt("Enter The First Number");
 
@@ -325,15 +295,7 @@
 //     document.write("Please input the right value here");
 // }
 
-
-
-
-
-
-
-
 // <------------------chapterNo-12-13-------------------->
-
 
 //  Question no 3
 
@@ -347,9 +309,6 @@
 //     document.write(num ," is 0");
 // }
 
-
-
-
 //  Question no 4
 
 // var alpha = prompt("Enter a single alphabet");
@@ -360,9 +319,8 @@
 //     document.write("Its not vowel")
 // }
 
-
 //  Question no 5
- 
+
 // var passWord = 123;
 // var passWord = prompt("Enter your passowrd");
 // if (passWord === "123"){
@@ -371,9 +329,7 @@
 //     alert("wrong password");
 // }
 
-
 //  Question no 6
-
 
 // var hour = 13;
 // var hour = prompt("enter hour")
@@ -382,7 +338,3 @@
 // }else {
 //     document.write("good morning ");
 // }
-
-
-
-

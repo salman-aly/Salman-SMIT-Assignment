@@ -40,6 +40,7 @@
 //     "8)" +
 //     "phD </br>",
 // ];
+// document.write(qualifications);
 
 //////////////////////-----Question no #8-------/////////////////////////////////////
 // var students = ["Ali", "Ahmed", "Salman"];
@@ -144,14 +145,14 @@
 
 // //////////////////////-----Question no #11-------/////////////////////////////////////
 
-// document.write(<h4>Cities List :</h4>);
+// console.log("<h4>Cities List :</h4>");
 
 // var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawaar"];
 
-// // document.write(<h4>Seeleted Cities List :</h4>);
+// console.log("<h4>Seleted Cities List :</h4>");
 
-// var selectedCities = cities.slice(2, 4);
-// document.write(selectedCities);
+// var selectedCities = cities.slice(0, 3);
+// console.log(selectedCities);
 
 // //////////////////////-----Question no #12-------/////////////////////////////////////
 
@@ -216,3 +217,5 @@
 // document.write(
 //   "<Select>" + "<Option>" + phoneManufacturers[0] + "<Option>" + "<Select>"
 // );
+
+
