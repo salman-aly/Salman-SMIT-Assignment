@@ -186,6 +186,12 @@
         width: unset !important;
     }
 
+    .social-media {
+        display: flex;
+        align-items: center;
+        padding: unset !important;
+    }
+
 
 }
 
