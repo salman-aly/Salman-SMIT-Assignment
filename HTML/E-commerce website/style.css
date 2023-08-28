@@ -7,6 +7,7 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     scroll-behavior: smooth;
+    transition: 0.3s;
 }
 
 header {
@@ -173,7 +174,7 @@ header button {
 
 .section-inner .right-side img {
     /* width: 438.839px; */
-    height: 466.51px;
+    height: 496.51px;
     flex-shrink: 0;
     margin-top: 60px;
     margin-bottom: -4px;
@@ -223,6 +224,12 @@ header button {
     box-sizing: border-box;
 }
 
+.section-two .container:hover {
+    background-color: #E0E8EE;
+    border: 2px solid #E0E8EE;
+    border-radius: 10px;
+}
+
 .section-two .cont-txt-box {
     /* padding-top: 160px; */
     padding-bottom: 160px;
@@ -232,6 +239,12 @@ header button {
     align-items: start !important;
     list-style: 1.4;
     border: none;
+}
+
+.section-two .cont-txt-box:hover {
+    background-color: unset;
+    border: none;
+    border-radius: 10px;
 }
 
 .section-two .small-txt {
@@ -407,7 +420,7 @@ header button {
     border: 5px solid #ededed;
 }
 
-.section-five .right-box:hover{
+.section-five .right-box:hover {
     background-color: #E0E8EE;
     border: 5px solid #E0E8EE;
     border-radius: 5px;
@@ -427,7 +440,7 @@ header button {
     text-align: center;
 }
 
-.section-five .left-box:hover{
+.section-five .left-box:hover {
     background-color: #E0E8EE;
     border: 5px solid #E0E8EE;
     border-radius: 5px;
