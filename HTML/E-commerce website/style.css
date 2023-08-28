@@ -23,7 +23,6 @@ header {
 }
 
 .header-item {
-    width: 1280px;
     display: flex;
     align-items: center;
     column-gap: 50px;
