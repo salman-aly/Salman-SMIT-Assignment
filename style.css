@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 
@@ -194,6 +197,7 @@
 .figma .figma-img {
     width: 70%;
 }
+
 .figma .figma-img img {
     width: 100%;
 }
@@ -231,4 +235,31 @@
 
 .grow:hover {
     transform: scale(1.1);
+}
+
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+#refresh::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    block-size: 10px;
+    animation: delayed-snap-point 2ms forwards;
+}
+
+@keyframes delayed-snap-point {
+    to {
+        scroll-snap-align: start
+    }
 }

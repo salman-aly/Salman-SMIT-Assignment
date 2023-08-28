@@ -6,6 +6,7 @@
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -55,11 +56,18 @@ nav ul li {
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
+    transition: 0.3s;
 }
 
 nav ul li a {
     text-decoration: none;
     color: black;
+}
+
+nav ul li a:hover {
+    color: #C6866B;
+    text-decoration: underline;
+    transition: 0.3s ease-out !important;
 }
 
 .icon {
@@ -399,6 +407,13 @@ header button {
     border: 5px solid #ededed;
 }
 
+.section-five .right-box:hover{
+    background-color: #E0E8EE;
+    border: 5px solid #E0E8EE;
+    border-radius: 5px;
+}
+
+
 .section-five .right-box img {
     width: 100%;
 }
@@ -411,6 +426,13 @@ header button {
     border-radius: 5px;
     text-align: center;
 }
+
+.section-five .left-box:hover{
+    background-color: #E0E8EE;
+    border: 5px solid #E0E8EE;
+    border-radius: 5px;
+}
+
 
 .section-five .left-box h4 {
     color: #C6866B;
