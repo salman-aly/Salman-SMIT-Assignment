@@ -67,7 +67,6 @@
 //   }
 // }
 
-
 // (d)
 // Odd
 
@@ -76,3 +75,53 @@
 //     console.log(i);
 //   }
 // }
+
+// (e)
+// Series
+
+// for (var i = 1; i <= 20; i++) {
+//   if (i % 2 == 0) console.log(i + "k");
+// }
+
+//<-------- Question-no-07-------->
+
+// var userInput = prompt(
+//   "Welcome to Gilgit Bakery. What do you want to order Sir/Madam?"
+// );
+
+// var found = false;
+
+// var a = ["cake", "apple pie", "cookie", "chips", "patties"];
+
+// for (var i = 0; i < a.length; i++) {
+//   if (userInput === a[i]) {
+//     console.log(userInput + "is available at " + [i] + " in our bakery");
+//     found = true;
+//     break;
+//   }
+// }
+// if (found === false) {
+//   console.log("We are sorry " + userInput + " is not availbe in our bakery");
+// }
+
+//<-------- Question-no-08-------->
+
+// var num = [24, 53, 78, 91, 12];
+// var max = num[0];
+// for (var i = 0; i < num.length; i++) {
+//   if (num[i] > max) {
+//     max = num[i];
+//   }
+// }
+// console.log("Max number is " + max);
+
+//<-------- Question-no-09-------->
+
+// var num = [24, 53, 78, 91, 12];
+// var min = num[0];
+// for (var i = 0; i < num.length; i++) {
+//   if (num[i] < min) {
+//     min = num[i];
+//   }
+// }
+// console.log("Min number is " + min);
