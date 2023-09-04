@@ -70,3 +70,96 @@
 // document.write("<br/>Type: " + typeof +(value));
 
 // <-------Questions-10-------->
+
+// var userInput=prompt("Enter a word")
+
+// document.write("User input: " + userInput)
+// document.write("<br/>Upper case: " + userInput.toUpperCase())
+
+// <-------Questions-11-------->
+
+// var userInput = prompt("Enter a word");
+
+// document.write("User input: " + userInput);
+// document.write(
+//   "<br/>Title case: " + userInput[0].toUpperCase() + userInput.slice(1)
+// );
+
+// <-------Questions-12-------->
+
+// var num = 35.36;
+
+// document.write("Number: " + num);
+// document.write("<br/>Result: " + num.toString().replace(".", ""));
+
+// <-------Questions-13-------->
+
+// var userName = prompt("Please enter your name");
+// var specialSymbole = ["@", ",", ".", "!"];
+// var flag = true;
+
+// for (var i = 0; i < specialSymbole.length; i++) {
+//   if (userName.includes(specialSymbole[i])) {
+//     alert("Please enter a username without special symbole.");
+//     flag = false;
+//     break;
+//   }
+// }
+
+// if (flag) {
+//   alert(" Welcome " + userName);
+// }
+
+// <-------Questions-14-------->
+
+// var userInput = prompt(
+//   "Welcome to Gilgit Bakery whats your order Ma'am | Sir"
+// ).toLowerCase();
+// var items = ["cake", "apple pie", "cookie", "chips", "patties"];
+
+// var flag = true;
+
+// for (var i = 0; i < items.length; i++) {
+//   if (userInput == items[i]) {
+//     document.write(
+//       userInput + " is availabe at index " + [i] + " in our bakery"
+//     );
+//     flag = false;
+//     break;
+//   }
+// }
+// if (flag) {
+//   document.write("We are sorry " + userInput + " is not availbe in our bakery");
+//
+
+// <-------Questions-15-------->
+
+// var userInput = prompt("Enter a password");
+
+// if (userInput.length < 6) {
+//   alert("Password must be at least 6 characters long.");
+// } else if (/^\d/.test(userInput)) {
+//   alert("Password should not start with a number.");
+// } else if (!/[a-zA-Z]/.test(userInput) || !/\d/.test(userInput)) {
+//   alert("Password must contain both letters and numbers.");
+// } else {
+//   alert("Password matches criteria");
+// }
+
+// <-------Questions-16-------->
+
+// var university = "University of Karachi";
+
+// for (var i = 0; i < university.length; i++) {
+//   university.split();
+//   console.log(university[i]);
+// }
+
+// <-------Questions-17-------->
+
+// var userInput = prompt("Enter a letter");
+
+// document.write("User Input: " + userInput);
+// document.write("<br/>Last character of input:  " + userInput);
+
+
