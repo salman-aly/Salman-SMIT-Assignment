@@ -162,4 +162,3 @@
 // document.write("User Input: " + userInput);
 // document.write("<br/>Last character of input:  " + userInput);
 
-
