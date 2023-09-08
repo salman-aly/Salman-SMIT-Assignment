@@ -67,4 +67,21 @@
 
 // <--------Question--#07---------->
 
-// continue...
+// var userInput = +prompt("Enter your weight in kilogram");
+// console.log("Your weight is " + userInput + " kg");
+
+// <--------Question--#08---------->
+
+// var userInput = +prompt("Enter your number here from 1 to 10");
+
+// var random = Math.ceil(Math.random() * 10);
+// if (userInput === random) {
+//   alert("Congrats!");
+// } else {
+//   alert("Try again!");
+// }
+
+// console.log(random);
+
+
+
