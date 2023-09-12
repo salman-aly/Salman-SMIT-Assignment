@@ -69,15 +69,36 @@
 
 // >>>>>>>>>>Question No 06<<<<<<<<<<
 
-var userInput = +prompt("Enter a num to find its factorial");
-var result = 1;
+// var userInput = +prompt("Enter a num to find its factorial");
+// var result = 1;
 
-function fac(userInput) {
-  for (var i = 1; i <= userInput; i++) {
-    result *= i;
-  }
-}
+// function fac(userInput) {
+//   for (var i = 1; i <= userInput; i++) {
+//     result *= i;
+//   }
+// }
 
-fac(userInput);
+// fac(userInput);
 
-console.log("The factorial value of " + userInput + " is " + result);
+// console.log("The factorial value of " + userInput + " is " + result);
+
+// >>>>>>>>>>Question No 07<<<<<<<<<<
+
+// >>>>>>>>>>Question No 08<<<<<<<<<<
+
+// >>>>>>>>>>Question No 09<<<<<<<<<<
+
+// var height = +prompt("Enter height");
+// var width = +prompt("Enter width");
+
+// function area(height, width) {
+//   var area = height * width;
+//   document.write("The area of : " + height + " " + width + " is " + cal);
+// }
+
+// area(height, width);
+
+// >>>>>>>>>>Question No 10<<<<<<<<<<
+
+
+
