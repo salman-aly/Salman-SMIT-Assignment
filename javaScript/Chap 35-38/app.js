@@ -30,3 +30,54 @@
 // }
 
 // add(number1, number2);
+
+// >>>>>>>>>>Question No 04<<<<<<<<<<
+
+// var userInput1 = +prompt("Enter num 1");
+// var userInput2 = +prompt("Enter num 2");
+
+// var userValue = prompt("Enter the value e.g : " + "-" + "+" + "x" + "/");
+
+// function cal(userInput1, userInput2, userValue) {
+//   if (userValue === "-") {
+//     return userInput1 - userInput2;
+//   } else if (userValue === "+") {
+//     return userInput1 + userInput2;
+//   } else if (userValue === "x") {
+//     return userInput1 * userInput2;
+//   } else if (userValue === "/") {
+//     return userInput1 / userInput2;
+//   } else {
+//     return "Enter a valid value";
+//   }
+// }
+
+// var result = cal(userInput1, userInput2, userValue);
+
+// console.log("The result is :" + result);
+
+// >>>>>>>>>>Question No 05<<<<<<<<<<
+
+// var userInput = +prompt("Enter a num to find its square");
+
+// function square(userInput) {
+//   var cal = userInput * userInput;
+//   console.log("The square of " + userInput + " is " + cal);
+// }
+
+// square(userInput);
+
+// >>>>>>>>>>Question No 06<<<<<<<<<<
+
+var userInput = +prompt("Enter a num to find its factorial");
+var result = 1;
+
+function fac(userInput) {
+  for (var i = 1; i <= userInput; i++) {
+    result *= i;
+  }
+}
+
+fac(userInput);
+
+console.log("The factorial value of " + userInput + " is " + result);
