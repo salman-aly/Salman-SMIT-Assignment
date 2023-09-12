@@ -93,12 +93,10 @@
 
 // function area(height, width) {
 //   var area = height * width;
-//   document.write("The area of : " + height + " " + width + " is " + cal);
+//   document.write("The area of : " + height + " x" + width + " is " + area);
 // }
 
+// //argument with variable
 // area(height, width);
-
-// >>>>>>>>>>Question No 10<<<<<<<<<<
-
-
-
+// //argument with value
+// area(10, 40);
