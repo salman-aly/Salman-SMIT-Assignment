@@ -36,7 +36,7 @@
 // var userInput1 = +prompt("Enter num 1");
 // var userInput2 = +prompt("Enter num 2");
 
-// var userValue = prompt("Enter the value e.g : " + "-" + "+" + "x" + "/");
+// var userValue = prompt("Enter the value e.g -,+,x,/");
 
 // function cal(userInput1, userInput2, userValue) {
 //   if (userValue === "-") {
@@ -100,3 +100,19 @@
 // area(height, width);
 // //argument with value
 // area(10, 40);
+
+// >>>>>>>>>>Question No 0<<<<<<<<<<
+
+// function findLongestWord(str) {
+//   var word = str.split(" ");
+//   var longestWord = "";
+
+//   for (var i = 0; i < word.length; i++) {
+//     if (word[i].length > longestWord.length) {
+//       longestWord = word[i];
+//     }
+//   }
+//   console.log("The longest word is : " + longestWord);
+// }
+
+// findLongestWord("Web Development Tutorial");
