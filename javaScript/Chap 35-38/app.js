@@ -83,6 +83,23 @@
 // console.log("The factorial value of " + userInput + " is " + result);
 
 // >>>>>>>>>>Question No 07<<<<<<<<<<
+// --------> NOTE->>>>>>>>  >>>>>>kindly Review this code please<<<<<<<
+
+// function num(str, end) {
+//   var result = [];
+//   for (var i = str; i <= end; i++) {
+//     result++;
+//   }
+
+//   return result;
+// }
+
+// var str = 1;
+// var end = 10;
+
+// var result = num(1, 10);
+
+// console.log(result);
 
 // >>>>>>>>>>Question No 08<<<<<<<<<<
 
@@ -101,7 +118,9 @@
 // //argument with value
 // area(10, 40);
 
-// >>>>>>>>>>Question No 0<<<<<<<<<<
+// >>>>>>>>>>Question No 11<<<<<<<<<<
+
+// >>>>>>>>>>Question No 12<<<<<<<<<<
 
 // function findLongestWord(str) {
 //   var word = str.split(" ");
@@ -116,3 +135,22 @@
 // }
 
 // findLongestWord("Web Development Tutorial");
+
+// >>>>>>>>>>Question No 13<<<<<<<<<<
+
+// function value(str, ltr) {
+//   var output = 0;
+
+//   for (var i = 0; i < str.length; i++) {
+//     if (str[i] === ltr) {
+//       output++;
+//     }
+//   }
+//   return output;
+// }
+
+// var str = "salman";
+// var ltr = "a";
+// var result = value(str, ltr);
+
+// console.log(result);
