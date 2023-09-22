@@ -83,23 +83,14 @@
 // console.log("The factorial value of " + userInput + " is " + result);
 
 // >>>>>>>>>>Question No 07<<<<<<<<<<
-// --------> NOTE->>>>>>>>  >>>>>>kindly Review this code please<<<<<<<
-
 // function num(str, end) {
-//   var result = [];
 //   for (var i = str; i <= end; i++) {
-//     result++;
+//     console.log(i)
 //   }
 
-//   return result;
 // }
 
-// var str = 1;
-// var end = 10;
-
-// var result = num(1, 10);
-
-// console.log(result);
+// num(3,15)
 
 // >>>>>>>>>>Question No 08<<<<<<<<<<
 
