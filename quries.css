@@ -24,7 +24,12 @@
         border-radius: 5px;
     }
 
-    .footer{
+    .tereinn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
         width: 100% !important;
     }
 
@@ -35,9 +40,10 @@
 
 @media screen and (max-width: 480px) {
 
-    .main{
+    .main {
         width: 100% !important;
     }
+
     .logo {
         display: flex;
         justify-content: center;
@@ -125,10 +131,30 @@
         border-radius: 5px;
     }
 
-    .footer{
+    .img {
+        width: 100% !important;
+    }
+
+    .teretxt>h2 {
+        color: #fff;
+        font-size: 22px !important;
+    }
+    
+    .teretxt>p {
+        color: #fff;
+        font-size: 14px !important;
+        text-align: center;
+    }
+    
+    .tereinn>img {
+        width: 80% !important;
+    }
+
+    .footer {
         width: 100% !important;
         padding-bottom: 10px !important;
     }
+
     .footer-main h2 {
         font-size: 2rem !important;
     }

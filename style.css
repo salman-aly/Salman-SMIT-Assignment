@@ -25,7 +25,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-bottom: 50px
+    padding-bottom: 60px
 }
 
 .container-one {
@@ -99,6 +99,54 @@
     display: flex;
     justify-content: center;
     gap: 45px;
+}
+
+
+.section-tereapp {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #358DDE;
+}
+
+.tereinn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.tere-heading {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff !important;
+}
+
+.teretxt>h2 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.teretxt>p {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.teretxt a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.img {
+    width: 600px;
+    transition: 0.4s;
+    transition-timing-function: ease-in;
+    transition: 0.6s;
+}
+
+.img img {
+    width: 100%;
 }
 
 .btn-sec-one {
