@@ -3,13 +3,13 @@
 * {
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
-
+/* <<<<<<<<<<<<<<<<<<<section-one-start>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 .main {
     /* width: 100%; */
@@ -154,6 +154,10 @@
     background-color: #358DDE !important;
 }
 
+/* <<<<<<<<<<<<<<<<<<<section-one-end>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<<<<<<<section-two-start>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
 .section-two {
     width: 100%;
     margin: 0 auto;
@@ -212,6 +216,9 @@
     text-transform: capitalize;
 }
 
+/* <<<<<<<<<<<<<<<<<<<section-two-end>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<<<<<<<section-three-start>>>>>>>>>>>>>>>>>>>>>>>>>> */
 .section-three {
     background-color: #358DDE;
     border-top-left-radius: 30px;
@@ -221,6 +228,9 @@
 .section-three h1 {
     color: #ffffff;
 }
+/* <<<<<<<<<<<<<<<<<<<section-three-end>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<<<<<<<footer start>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 .footer {
     width: 100%;
@@ -273,10 +283,12 @@
     color: #358DDE;
 }
 
+/* <<<<<<<<<<<<<<<<<<<footer end>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 
 
 
+/* <<<<<<<<<<<<<<<<<<<Animation start>>>>>>>>>>>>>>>>>>>>>>>>>> */
 .grow {
     transition: all .5s ease-in-out;
 }
@@ -311,3 +323,5 @@
         scroll-snap-align: start
     }
 }
+
+/* <<<<<<<<<<<<<<<<<<<animation end>>>>>>>>>>>>>>>>>>>>>>>>>> */
