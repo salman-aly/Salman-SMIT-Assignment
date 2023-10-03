@@ -10,18 +10,21 @@
 
 <body>
     <center>
-        <form action="">
+        <form onsubmit="getValue()">
             <div class="input">
                 <label for="">Username</label>
-                <input type="text" placeholder="Enter Username">
+                <input type="text" placeholder="Enter Username" id="uname">
             </div>
             <div class="input">
                 <label for="">Password</label>
-                <input type="password" placeholder="Enter Password" required>
+                <input type="password" placeholder="Enter Password" id="pswd">
             </div>
             <input type="submit" value="Login" class="btn">
         </form>
     </center>
+
+
+    <script src="app.js"></script>
 </body>
 
 </html>
