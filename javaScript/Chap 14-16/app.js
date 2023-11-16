@@ -204,18 +204,20 @@
 // //////////////////////-----Question no #15-------/////////////////////////////////////
 
 // var phoneManufacturers = [
-//   "Apple",
-//   "Samsung",
-//   "Motorola",
-//   "Nokia",
-//   "Sony",
-//   "Haier",
-// ];
-
-// document.write("Select Mobile from the dropdown");
-
-// document.write(
-//   "<Select>" + "<Option>" + phoneManufacturers[0] + "<Option>" + "<Select>"
-// );
-
-
+//     "Apple",
+//     "Samsung",
+//     "Motorola",
+//     "Nokia",
+//     "Sony",
+//     "Haier",
+//   ];
+  
+//   document.write("Select Mobile from the dropdown");
+  
+//   document.write("<select>");
+  
+//   for (var i = 0; i < phoneManufacturers.length; i++) {
+//     document.write("<option>" + phoneManufacturers[i] + "</option>");
+//   }
+  
+//   document.write("</select>");
