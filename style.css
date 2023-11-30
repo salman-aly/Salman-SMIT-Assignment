@@ -25,7 +25,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-bottom: 60px
+    padding-bottom: 60px;
 }
 
 .container-one {
@@ -33,6 +33,11 @@
     /* width: 100%; */
     margin: auto;
     position: relative;
+}
+
+.pwa {
+    background-color: #358DDE;
+    color: #fff !important;
 }
 
 .nav {
@@ -209,6 +214,10 @@
 
 .one-container img {
     width: 100%;
+}
+
+.svg-bg{
+    background-color: #fff !important;
 }
 
 .text-img {
